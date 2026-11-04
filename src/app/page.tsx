@@ -72,7 +72,9 @@ export default function RedesignPreview() {
               <p className={styles.name}>Vaishnavi Desai</p>
             </div>
             <div className={styles.heroVisual}>
-              <Artwork src="/images/vaishnavi-home-cover.jpg" alt="Vaishnavi Desai" className={styles.portrait} />
+              <div className={`${styles.artwork} ${styles.portrait}`}>
+                <img src="/images/vaishnavi-cover-2.jpg" alt="Vaishnavi Desai" />
+              </div>
               <div className={styles.imageNote}><span>Vaishnavi Desai</span><span>Scroll to explore ↓</span></div>
             </div>
           </div>

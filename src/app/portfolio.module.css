@@ -39,7 +39,7 @@
 .name { margin: 28px 0 0 4px; font-size: 18px; font-weight: 600; letter-spacing: -.035em; }
 .heroVisual { width: min(100%, 360px); justify-self: end; }
 .artwork { position: relative; overflow: hidden; background: #e5e3dc; }
-.artwork img { object-fit: cover; }
+.artwork img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .portrait { height: 360px; background: #dfdcd5; }
 .portrait img { object-position: center 38%; }
 .imageNote { padding-top: 10px; color: var(--muted); font: 8px "DM Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
