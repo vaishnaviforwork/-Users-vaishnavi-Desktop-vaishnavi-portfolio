@@ -236,3 +236,69 @@
   .previewMark { right: 6px; bottom: 6px; font-size: 6px; }
 }
 @media (prefers-reduced-motion: reduce) { .site *, .site *::before, .site *::after { scroll-behavior: auto !important; transition: none !important; } }
+
+/* Reading-size refinements for laptop and mobile screens. */
+@media (min-width: 621px) {
+  .site { font-size: 16px; }
+  .header nav a, .talk { font-size: 13px; }
+  .label, .sectionHeading > span, .conceptNumber { font-size: 10px; }
+  .sectionHeading h2 { font-size: 12px; }
+  .heroFoot { font-size: 12px; }
+  .imageNote { font-size: 9px; }
+  .aboutIntro p, .workLead p, .labLead p, .approachLead p { font-size: 15px; }
+  .projectMeta { font-size: 9px; }
+  .disclosure summary { font-size: 13px; }
+  .episodes strong { font-size: 19px; }
+  .episodes em { font-size: 14px; }
+  .episodes p, .developmentIntro, .development { font-size: 13px; }
+  .writingText small { font-size: 11px; }
+  .brandRow p { font-size: 12px; }
+  .conceptBody > p:not(.label), .conceptBody .disclosure > p { font-size: 13px; }
+  .principles li > span { font-size: 9px; }
+  .principles p { font-size: 12px; }
+  .metric span { font-size: 9px; }
+  .contactBody p, .contactBody a { font-size: 13px; }
+}
+
+@media (max-width: 620px) {
+  .header {
+    height: auto;
+    min-height: 64px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 24px 18px;
+    gap: 7px 0;
+    padding: 8px 17px 7px;
+  }
+  .logo { grid-column: 1; grid-row: 1; }
+  .talk { grid-column: 2; grid-row: 1; font-size: 10px; }
+  .header nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .header nav a { font-size: 10px; white-space: nowrap; }
+  .sectionHeading { scroll-margin-top: 78px; }
+  .label { font-size: 9px; }
+  .sectionHeading > span { font-size: 9px; }
+  .sectionHeading h2 { font-size: 10px; }
+  .heroFoot { font-size: 10px; }
+  .imageNote { font-size: 8px; }
+  .aboutIntro p, .workLead p, .labLead p, .approachLead p { font-size: 14px; line-height: 1.75; }
+  .podcast { grid-template-columns: 78px minmax(0, 1fr); gap: 12px; }
+  .projectMeta { font-size: 7.5px; letter-spacing: .04em; }
+  .disclosure summary { font-size: 11px; }
+  .episodes strong { font-size: 16px; }
+  .episodes em { font-size: 12px; }
+  .episodes p, .developmentIntro, .development { font-size: 11px; line-height: 1.65; }
+  .writingText small { font-size: 9px; }
+  .brandRow p { font-size: 10px; line-height: 1.6; }
+  .conceptBody > p:not(.label), .conceptBody .disclosure > p { font-size: 12px; line-height: 1.7; }
+  .principles li > span { font-size: 8px; }
+  .principles p { font-size: 11px; line-height: 1.6; }
+  .metric span { font-size: 8px; }
+  .contactBody p, .contactBody a { font-size: 12px; }
+  .footer { font-size: 7px; }
+}
