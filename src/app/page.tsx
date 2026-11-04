@@ -3,6 +3,10 @@ import type { ReactNode } from 'react'
 import styles from './portfolio.module.css'
 import { about, concepts, contact, metrics, principles, projects, writing } from '@/content'
 
+// Serve fresh homepage markup on every request so mobile webviews don't revive
+// an older, statically cached hero after a deployment.
+export const dynamic = 'force-dynamic'
+
 function Label({ children }: { children: ReactNode }) {
   return <p className={styles.label}>{children}</p>
 }
