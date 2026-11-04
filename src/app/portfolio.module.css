@@ -216,7 +216,7 @@
   .brandRow p { font-size: 9px; }
   .brandRow .outbound { font-size: 7px; }
   .concept { grid-template-columns: 22px 1fr; gap: 12px; padding: 20px 0; }
-  .conceptImage { position: static; grid-column: 2; grid-row: 1; aspect-ratio: 1.8; }
+  .conceptImage { position: relative; grid-column: 2; grid-row: 1; aspect-ratio: 1.8; }
   .conceptNumber { grid-column: 1; grid-row: 1; }
   .conceptBody { grid-column: 2; }
   .conceptBody h3 { font-size: 27px; }
