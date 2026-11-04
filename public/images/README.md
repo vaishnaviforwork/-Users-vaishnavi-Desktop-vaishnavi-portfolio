@@ -2,7 +2,7 @@
 
 Approved image assets currently used by the site:
 
-- `vaishnavi-portrait.jpg` — hero portrait
+- `vaishnavi-hero-portrait.jpg` — hero portrait
 - `myndstories-feature.jpg` — MyndStories feature thumbnail
 - `newsletter.jpg` — newsletter thumbnail
 - `blogs.jpg` — blogs thumbnail
