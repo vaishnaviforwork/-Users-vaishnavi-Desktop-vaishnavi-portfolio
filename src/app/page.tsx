@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import type { ReactNode } from 'react'
 import styles from './portfolio.module.css'
-import { about, concepts, contact, metrics, principles, projects, skoob, writing } from '@/content'
+import { about, concepts, contact, metrics, projects, skoob, writing } from '@/content'
 
 // Serve fresh homepage markup on every request so mobile webviews don't revive
 // an older, statically cached hero after a deployment.
@@ -64,12 +64,14 @@ function SkoobShelf({ title, groups, columns }: { title: string; groups: typeof 
             <h4>{group.genre}</h4>
             <div className={styles.skoobItems}>
               {group.items.map((item) => (
-                <a className={styles.skoobItem} href={item.href} target="_blank" rel="noreferrer" key={item.title}>
-                  <strong>{item.title}</strong>
-                  <span className={styles.skoobTags}>{item.tags.join(' · ')}</span>
-                  <span className={styles.skoobDescription}>{item.description}</span>
-                  <span className={styles.skoobListen}>Listen ↗</span>
-                </a>
+                <details className={styles.skoobItem} key={item.title}>
+                  <summary><strong>{item.title}</strong><span aria-hidden="true">+</span></summary>
+                  <div className={styles.skoobItemBody}>
+                    <span className={styles.skoobTags}>{item.tags.join(' · ')}</span>
+                    <span className={styles.skoobDescription}>{item.description}</span>
+                    <a className={styles.skoobListen} href={item.href} target="_blank" rel="noreferrer">Listen ↗</a>
+                  </div>
+                </details>
               ))}
             </div>
           </section>
@@ -120,9 +122,9 @@ export default function RedesignPreview() {
           <div className={styles.twoSides}>
             <Label>Two sides of me do the work</Label>
             <div className={styles.sidePair}>
-              <div className={styles.side}><span>01</span><h3>The Creative</h3><p>in me {about.creative}</p></div>
-              <div className={styles.side}><span>02</span><h3>The Creator</h3><p>in me {about.creator}</p></div>
-              <div className={styles.meet}><span>↙</span><i>I do my best work here.</i></div>
+              <div className={styles.side}><h3>The Creative</h3><p>in me {about.creative}</p></div>
+              <div className={styles.side}><h3>The Creator</h3><p>in me {about.creator}</p></div>
+              <div className={styles.meet}><span aria-hidden="true">↓</span><i>I do my best work here.</i></div>
             </div>
           </div>
           <div className={styles.aboutFoot}>
@@ -160,19 +162,13 @@ export default function RedesignPreview() {
           </article>)}</div>
         </section>
 
-        <section className={styles.approach}>
-          <SectionHeading number="04" title="How I work" id="approach-heading" />
-          <div className={styles.approachLead}><h2>How I<br /><i>work.</i></h2></div>
-          <ol className={styles.principles}>{principles.map(([title, description], i) => <li key={title}><span>0{i + 1}</span><h3>{title}</h3><p>{description}</p><b>↗</b></li>)}</ol>
-        </section>
-
         <section className={styles.numbers}>
-          <SectionHeading number="05" title="By the numbers" id="numbers-heading" />
+          <SectionHeading number="04" title="By the numbers" id="numbers-heading" />
           <div className={styles.metricGrid}>{metrics.map(([number, label]) => <div className={styles.metric} key={label}><strong>{number}</strong><span>{label}</span></div>)}</div>
         </section>
 
         <section className={styles.contact} id="contact">
-          <SectionHeading number="06" title="Contact" id="contact-heading" />
+          <SectionHeading number="05" title="Contact" id="contact-heading" />
           <div className={styles.contactBody}><h2>Let’s<br /><i>connect.</i></h2><div><a href={`mailto:${contact.email}`}>{contact.email} ↗</a><a href={`tel:${contact.phone.replaceAll(' ', '')}`}>{contact.phone}</a><a href={contact.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
           <div className={styles.footer}><span>Vaishnavi Desai · Stories & Strategies</span><a href="#top">Back to top ↑</a></div>
         </section>

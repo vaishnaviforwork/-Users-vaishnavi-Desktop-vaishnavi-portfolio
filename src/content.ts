@@ -7,16 +7,6 @@ export const about = {
   anatomy: [['I THINK', 'content strategy, editorial strategy, format development'], ['I DIG', 'qualitative research, psychology, consumer behaviour'], ['I MAKE', 'podcasts, features, scripts, stories, brand content']],
 }
 
-export const principles = [
-  ['Relevance', 'Does the topic matter to the intended audience?'],
-  ['Authority', 'Can the story be grounded in credible sources?'],
-  ['Differentiation', 'What fresh angle can we bring to a familiar subject?'],
-  ['Audience Interest', 'Is there a compelling reason for people to listen?'],
-  ['Search Potential', 'Are people actively looking for this subject?'],
-  ['Social Media Potential', 'Can the story spark discussion and sharing?'],
-  ['Business Relevance', "Does it fit the platform's content and audience goals?"],
-]
-
 export const skoob = {
   title: 'Skoob.AI: Content Development & Podcast Production',
   description: 'My work at Skoob spanned non-fiction show development and individual podcast scripting, covering genres from true crime and history to spirituality and psychology. From exploring new show concepts and identifying stories with audience potential to researching subjects, developing narrative structures and shaping scripts, the work involved taking ideas from initial discovery to a listening experience.',
@@ -111,7 +101,7 @@ export const writing = [
   { title: 'Feature Articles', category: 'Editorial & Long-form', description: 'Feature pieces exploring people, culture, psychology and human behaviour.', href: 'https://myndstories.com/author/vaishnavi-desai', action: 'View samples', image: '/images/myndstories-feature.jpg', imageAlt: 'Sunrise Reflections feature piece artwork' },
   { title: 'Newsletters', category: 'Editorial & Long-form', description: 'Editorial writing and audience-focused storytelling.', href: 'https://docs.google.com/document/d/1Ya44UCZ0hjBGwBJlUWxx0_gwWFQXcyCnkK4iME3pHso/edit?tab=t.0', action: 'View samples', image: '/images/newsletter.jpg', imageAlt: 'Golden Hour mental wellness newsletter artwork' },
   { title: 'Blogs', category: 'Editorial & Long-form', description: 'Research-led articles across topics and industries.', href: 'https://docs.google.com/document/d/1pqMwARWBJRYKbF6RKCr253gyD5dqoCnUgCI8E1N7R8U/edit?tab=t.0', action: 'View samples', image: '/images/blogs.jpg', imageAlt: 'Warm Blog Storytelling Desk artwork' },
-  { title: 'Skoob AI — Website Strategy & Content', category: 'Website Content', description: "Website content shaping the platform's messaging, content categories and value proposition for its audio storytelling experience.", href: 'https://skoob.ai/', action: 'Visit website', image: '', imageAlt: '' },
+  { title: 'Skoob AI — Website Strategy & Content', category: 'Website Content', description: "Website content shaping the platform's messaging, content categories and value proposition for its audio storytelling experience.", href: 'https://skoob.ai/', action: 'Visit website', image: '/images/skoob-homepage-artwork.png', imageAlt: "Robert Johnson's Death artwork featured on the Skoob homepage" },
   { title: 'SetMyCareer — Website Content', category: 'Website Content', description: 'Website copy communicating services, value propositions and user journeys.', href: 'https://setmycareer.com/', action: 'Visit website', image: '/images/setmycareer.jpg', imageAlt: 'SetMyCareer website screenshot' },
   { title: 'Supergigs — Website Content', category: 'Website Content', description: 'Website content shaping the messaging and value proposition of a freelance platform.', href: 'https://www.figma.com/design/y6va5osrtBBXn9dr8ImBf9/Supergigs-Latest?node-id=0-1&p=f', action: 'View website copy', image: '/images/supergigs.jpg', imageAlt: 'Supergigs website screenshot' },
 ]
