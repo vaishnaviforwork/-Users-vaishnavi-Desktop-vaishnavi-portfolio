@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import type { ReactNode } from 'react'
 import styles from './portfolio.module.css'
-import { about, concepts, contact, metrics, principles, projects, writing } from '@/content'
+import { about, concepts, contact, metrics, principles, projects, skoob, writing } from '@/content'
 
 // Serve fresh homepage markup on every request so mobile webviews don't revive
 // an older, statically cached hero after a deployment.
@@ -54,8 +54,34 @@ function PodcastProject({ project }: { project: (typeof projects)[number] }) {
   )
 }
 
+function SkoobShelf({ title, groups, columns }: { title: string; groups: typeof skoob.shows; columns: 'three' | 'four' }) {
+  return (
+    <div className={`${styles.skoobShelf} ${columns === 'four' ? styles.skoobShelfFour : ''}`}>
+      <div className={styles.skoobShelfHeading}><Label>{title}</Label><span>↘</span></div>
+      <div className={styles.skoobColumns}>
+        {groups.map((group) => (
+          <section className={styles.skoobColumn} key={`${title}-${group.genre}`}>
+            <h4>{group.genre}</h4>
+            <div className={styles.skoobItems}>
+              {group.items.map((item) => (
+                <a className={styles.skoobItem} href={item.href} target="_blank" rel="noreferrer" key={item.title}>
+                  <strong>{item.title}</strong>
+                  <span className={styles.skoobTags}>{item.tags.join(' · ')}</span>
+                  <span className={styles.skoobDescription}>{item.description}</span>
+                  <span className={styles.skoobListen}>Listen ↗</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export default function RedesignPreview() {
   const [beforeWhy, afterWhy] = about.opener.split('why')
+  const [betweenWhyAndHow, afterHow] = afterWhy.split('how')
 
   return (
     <div className={styles.site}>
@@ -88,7 +114,7 @@ export default function RedesignPreview() {
         <section className={styles.about} id="about">
           <SectionHeading number="01" title="Inside my mind" id="about-heading" />
           <div className={styles.aboutIntro}>
-            <h2>{beforeWhy}<i>why</i>{afterWhy}</h2>
+            <h2>{beforeWhy}<i>why</i>{betweenWhyAndHow}<i>how</i>{afterHow}</h2>
             <p>{about.intro}</p>
           </div>
           <div className={styles.twoSides}>
@@ -108,15 +134,21 @@ export default function RedesignPreview() {
         <section className={styles.work} id="work">
           <SectionHeading number="02" title="Selected work" id="work-heading" />
           <div className={styles.workLead}><h2>Selected<br /><i>Work.</i></h2></div>
-          <div className={styles.subsection}><Label>Non-fiction podcast scripts</Label><div className={styles.podcastList}>{projects.map((project) => <PodcastProject project={project} key={project.id} />)}</div></div>
+          <section className={styles.skoobIntro}>
+            <Label>{skoob.title}</Label>
+            <p>{skoob.description}</p>
+          </section>
+          <SkoobShelf title="Non-fiction shows" groups={skoob.shows} columns="three" />
+          <SkoobShelf title="Non-fiction podcasts" groups={skoob.podcasts} columns="four" />
+          <div className={styles.subsection}><Label>Non-fiction show scripts</Label><div className={styles.podcastList}>{projects.map((project) => <PodcastProject project={project} key={project.id} />)}</div></div>
           <div className={styles.writingGroup}>
             <div className={styles.subsectionTitle}><Label>Editorial & long-form</Label><h3>Editorial &<br /><i>Long-form</i></h3></div>
             <div className={styles.writingRows}>{writing.slice(0, 3).map((item, i) => <a className={styles.writingRow} href={item.href} target="_blank" rel="noreferrer" key={item.title}>
               <span className={styles.rowNumber}>0{i + 1}</span><Artwork src={item.image} alt={item.imageAlt} className={styles.writingImage} /><span className={styles.writingText}><strong>{item.title}</strong><small>{item.description}</small></span><span className={styles.outbound}>{item.action} ↗</span>
             </a>)}</div>
           </div>
-          <div className={styles.brandGroup}><Label>Website & brand content</Label><div className={styles.brandRows}>{writing.slice(3).map((item, i) => <a href={item.href} target="_blank" rel="noreferrer" key={item.title} className={styles.brandRow}>
-            <Artwork src={item.image} alt={item.imageAlt} className={styles.brandImage} /><div><span className={styles.rowNumber}>0{i + 4} / WEBSITE CONTENT</span><h3>{item.title}</h3><p>{item.description}</p><span className={styles.outbound}>{item.action} ↗</span></div>
+          <div className={styles.brandGroup}><Label>Website Strategy & Content</Label><div className={styles.brandRows}>{writing.slice(3).map((item, i) => <a href={item.href} target="_blank" rel="noreferrer" key={item.title} className={styles.brandRow}>
+            {item.image ? <Artwork src={item.image} alt={item.imageAlt} className={styles.brandImage} /> : <div className={`${styles.brandImage} ${styles.brandPlaceholder}`} aria-hidden="true"><span>Strategy<br />& content</span></div>}<div><span className={styles.rowNumber}>0{i + 4} / WEBSITE CONTENT</span><h3>{item.title}</h3><p>{item.description}</p><span className={styles.outbound}>{item.action} ↗</span></div>
           </a>)}</div></div>
         </section>
 

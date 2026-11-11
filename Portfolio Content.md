@@ -10,27 +10,19 @@ Content strategy · Editorial · Storytelling
 
 ### Pg 2/ INSIDE MY MIND
 
-I've always been interested in the why behind things.
-
-—
+I've always been interested in the *why* and *how* behind things.
 
 With a background in psychology and 5+ years of researching, writing, and building content, I look for the human story between the lines. I then turn it into something people want to read, hear or talk about.
 
-—
-
 Two sides of me do the work:
 
-THE CREATIVE in me imagines, conceptualises, and experiments.  
-THE CREATOR in me researches, builds, and ships.
+| THE CREATIVE in me imagines, conceptualises, and experiments. | THE CREATOR in me researches, builds, and ships. |
+| :---- | :---- |
 
 I do my best work where they meet.
 
-—
-
 Forever curious about:  
 Psychology · Human behaviour · Stories · Pop culture · Internet rabbit holes · True crime · Health & Fitness · Mystery · Documentaries · Spirituality · Asking better questions
-
-—
 
 The Anatomy of My Work:
 
@@ -38,30 +30,29 @@ I THINK: content strategy, editorial strategy, format development
 I DIG: qualitative research, psychology, consumer behaviour  
 I MAKE: podcasts, features, scripts, stories, brand content
 
-### Pg 3/ HOW I WORK 
+### Pg 3/ WHAT I’VE DONE: SKOOB AI \- CONTENT DEVELOPMENT & PODCASTS
 
-1/ Relevance  
-Does the topic matter to the intended audience?
+[Skoob.AI](http://Skoob.AI): Content Development & Podcast Production
 
-2/ Authority  
-Can the story be grounded in credible sources?
+My work at Skoob spanned non-fiction show development and individual podcast scripting, covering genres from true crime and history to spirituality and psychology. From exploring new show concepts and identifying stories with audience potential to researching subjects, developing narrative structures and shaping scripts, the work involved taking ideas from initial discovery to a listening experience.
 
-3/ Differentiation  
-What fresh angle can we bring to a familiar subject?
+Non-Fiction Shows
 
-4/ Audience Interest  
-Is there a compelling reason for people to listen?
+| TRUE CRIME | HISTORY | MYSTERY |
+| :---- | :---- | :---- |
+| [Dorothy Kilgallen’s Death](https://skoob.ai/skoob/shows/dorothy-kilgallens-death) Investigative mystery \| Unanswered questions \| Historical crime A journalist's mysterious death, her investigation into the JFK assassination and the questions that remain. | [Island and Crown: The Andrew-Epstein Scandal](https://skoob.ai/skoob/shows/island-and-crown-the-andrew-epstein-scandal) Royal scandal \| Power & influence \| Sex trafficking allegations The relationship between Prince Andrew and Jeffrey Epstein, the allegations that brought it under scrutiny, and the scandal that shook the British monarchy. | [The Circleville Letters Mystery](https://skoob.ai/skoob/shows/the-circleville-letters-mystery) Unsolved mystery \| Anonymous letters \| Small-town secrets A series of threatening letters turns an ordinary community upside down, leading to years of suspicion and unanswered questions. |
+| [The Infamous Mary Bell](https://skoob.ai/skoob/shows/the-infamous-mary-bell) Criminal psychology \| Childhood \| True crime A disturbing case exploring childhood, violence, public outrage and the complexities of culpability. | [The Donner Pass Tragedy](https://skoob.ai/skoob/shows/the-donner-pass-tragedy) Survival story \| Pioneer history \| Extreme conditions A group of pioneers becomes stranded in the Sierra Nevada mountains during a brutal winter, facing starvation, desperation and unimaginable choices in their struggle to survive. | [Disappearance of Flight MH370](https://skoob.ai/skoob/shows/disappearance-of-flight-mh370) Modern history \| Aviation mystery \| Global events The disappearance of a passenger aircraft, an unprecedented search and the unanswered questions behind one of aviation's greatest mysteries. |
+| [Princess Diana’s Death](https://skoob.ai/skoob/shows/princess-dianas-death) Royal history \| Conspiracy theories \| Global events The events surrounding Diana's death, the investigations that followed and the theories that continue to surround it. | [WWII: The Global Shift](https://skoob.ai/skoob/shows/wwii-the-global-shift) World War II \| Geopolitics \| Global history How the Second World War reshaped global power, redrew political boundaries and transformed the modern world. | [The Missing 411 Cases](https://skoob.ai/skoob/shows/the-missing-411-cases) Disappearances \| Unexplained cases \| Pattern investigation A collection of unusual disappearances in remote locations, examining the recurring patterns and theories surrounding them. |
 
-5/ Search Potential  
-Are people actively looking for this subject?
+Non-Fiction Podcasts
 
-6/ Social Media Potential  
-Can the story spark discussion and sharing?
+| HISTORY | SPIRITUALITY | PSYCHOLOGY | TECH & BUSINESS |
+| :---- | :---- | :---- | :---- |
+| [Unit 731](https://skoob.ai/skoob/exclusive/unit-731) Political atrocities \| Secret experiments \| Dark history Inside Japan's secret wartime biological warfare programme and the horrific human experiments carried out under its name. | [Psychedelics and Spirituality](https://skoob.ai/skoob/oldskoob/psychedelics-and-spirituality) Consciousness \| Ancient practices \| Altered states Exploring the relationship between psychedelic experiences, spiritual traditions and changing perceptions of consciousness. | [Why We Believe Conspiracies](https://skoob.ai/skoob/exclusive/why-we-believe-conspiracies) Cognitive biases \| Crowd psychology \| Pattern recognition Exploring why people are drawn to conspiracy theories, how the mind connects seemingly unrelated events, and why alternative explanations can feel more convincing than established facts. | [Vegas' Casino Business](https://skoob.ai/skoob/exclusive/vegas-casino-business) Luxury & entertainment \| Business empires \| Risk management The business empire behind Las Vegas, exploring how casinos turn entertainment, psychology and risk into a multibillion-dollar industry. |
+| [Assassination of Malcolm X](https://skoob.ai/skoob/exclusive/assassination-of-malcolm-x) Political assassination \| Civil rights history \| Investigation The life, ideological transformation and assassination of Malcolm X, including the questions and controversies surrounding his killing. | [Quantum Spirituality](https://skoob.ai/skoob/exclusive/quantum-spirituality) Quantum concepts \| Consciousness \| Modern spirituality Examining the ideas connecting quantum theory and spirituality, while exploring where scientific understanding ends, and interpretation begins. | [Psychology of Stalkers](https://skoob.ai/skoob/oldskoob/psychology-of-stalkers) Obsessive behaviour \| Criminal psychology \| Human behaviour Examining the psychology behind stalking, from fixation and obsession to the behavioural patterns that can escalate into threats. | [Tech Oligarchs & US Politics](https://skoob.ai/skoob/exclusive/tech-oligarchs-and-us-politics) Big Tech \| Political influence \| Power & money Exploring how powerful technology leaders shape political conversations, policy and the relationship between business and government. |
+| [Hitler's Final Days](https://skoob.ai/skoob/exclusive/hitlers-final-days) Nazi Germany \| WWII \| Historical investigation Inside Hitler's final days in the Berlin bunker as Nazi Germany collapsed and the war in Europe came to an end. | [Spiritual Dimensions](https://skoob.ai/skoob/oldskoob/spiritual-dimension) Spiritual philosophy \| Consciousness \| Existence An exploration of spiritual dimensions and the different ways traditions and philosophies interpret realities beyond the physical world. | [Psychology of Rejection](https://skoob.ai/skoob/exclusive/psychology-of-rejection) Emotional behaviour \| Social psychology \| Human relationships Why rejection affects us so deeply, how the mind processes social exclusion and how it shapes our behaviour. | [Wearable Tech & Health](https://skoob.ai/skoob/exclusive/wearable-tech-and-health) Emerging technology \| Health innovation \| Consumer trends How wearable devices are changing personal health tracking, from everyday fitness monitoring to the future of preventive healthcare. |
 
-7/ Business Relevance  
-Does it fit the platform's content and audience goals?
-
-### Pg 4/ WHAT I’VE DONE: NON-FICTION PODCAST SCRIPT
+### Pg 4/ WHAT I’VE DONE: NON-FICTION SHOWS SCRIPT
 
 Elvis Presley’s Death  
 [Listen here](https://skoob.ai/skoob/shows/elvis-presleys-death)
@@ -95,7 +86,7 @@ The script I create is more than a collection of facts. Once I select a topic, I
 \- The transitions: Moving from the making of a cultural icon to the pressures behind his fame, the deterioration of his health and the circumstances surrounding his death.  
 \- The editorial direction: Balancing Elvis's public legacy with his personal struggles, distinguishing the official account of his death from speculation, and building towards the questions that continue to surround his story.
 
-### Pg 5/ WHAT I’VE DONE: NON-FICTION PODCAST SCRIPT
+### Pg 5/ WHAT I’VE DONE: NON-FICTION SHOWS SCRIPT
 
 Honeymoon Murder of Anni Dewani  
 [Listen here](https://skoob.ai/skoob/shows/honeymoon-murder-of-anni-dewani)
@@ -145,13 +136,10 @@ Blogs
 Research-led articles across topics and industries.  
 [View samples](https://docs.google.com/document/d/1pqMwARWBJRYKbF6RKCr253gyD5dqoCnUgCI8E1N7R8U/edit?tab=t.0)
 
-SetMyCareer \- Website Content  
-Website copy communicating services, value propositions and user journeys.  
-[Visit website](https://setmycareer.com/)
+Website Strategy & Content
 
-Supergigs \- Website Content  
-Website content shaping the messaging and value proposition of a freelance platform.  
-[View website copy](https://www.figma.com/design/y6va5osrtBBXn9dr8ImBf9/Supergigs-Latest?node-id=0-1&p=f)
+| Skoob AI \- Website Strategy & Content Website content shaping the platform's messaging, content categories and value proposition for its audio storytelling experience. [Visit website](https://skoob.ai/) | SetMyCareer \- Website Content Website copy communicating services, value propositions and user journeys. [Visit website](https://setmycareer.com/) | Supergigs \- Website Content  Website content shaping the messaging and value proposition of a freelance platform. [View website copy](https://www.figma.com/design/y6va5osrtBBXn9dr8ImBf9/Supergigs-Latest?node-id=0-1&p=f) |
+| :---- | :---- | :---- |
 
 ### Pg 7/ CONCEPT LAB: ORIGINAL CONCEPT
 
@@ -180,7 +168,7 @@ What I'm exploring
 \- Narrative structure, reveals, and pacing  
 \- Alternative endings and thematic development
 
-### Pg 8/ CONCEPT LAB: SPEC MICRO-DRAMA
+### Pg 8/ CONCEPT LAB: FICTION MICRO-DRAMA INDEPENDENT CONCEPT FOR NYKAA
 
 **Fiction Micro Drama Independent Concept for [Nykaa](https://www.nykaa.com/): The Vanity and Everything Else**
 
@@ -207,7 +195,7 @@ What I'm exploring
 
 ### Pg 9/ BY THE NUMBERS
 
-| 40+ Podcast Channels Created | 270+  Audio Shows Reviewed & Edited | 3,000+  AI-Curated Podcasts Reviewed |
+| 40+ Podcast Channels Created | 300+  Audio Shows Reviewed & Edited | 5,000+  AI-Curated Podcasts Reviewed |
 | :---- | :---- | :---- |
 | 50+ Newsletters Written & Deployed | 70+ Blogs and Guest Blogs Written | 10+ Feature Articles Published |
 
