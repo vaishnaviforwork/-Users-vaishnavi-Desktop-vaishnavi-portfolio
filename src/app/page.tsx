@@ -145,12 +145,12 @@ export default function RedesignPreview() {
           <div className={styles.subsection}><Label>Non-fiction show scripts</Label><div className={styles.podcastList}>{projects.map((project) => <PodcastProject project={project} key={project.id} />)}</div></div>
           <div className={styles.writingGroup}>
             <div className={styles.subsectionTitle}><Label>Editorial & long-form</Label><h3>Editorial &<br /><i>Long-form</i></h3></div>
-            <div className={styles.writingRows}>{writing.slice(0, 3).map((item, i) => <a className={styles.writingRow} href={item.href} target="_blank" rel="noreferrer" key={item.title}>
+            <div className={styles.writingRows}>{writing.slice(0, 4).map((item, i) => <a className={styles.writingRow} href={item.href} target="_blank" rel="noreferrer" key={item.title}>
               <span className={styles.rowNumber}>0{i + 1}</span><Artwork src={item.image} alt={item.imageAlt} className={styles.writingImage} /><span className={styles.writingText}><strong>{item.title}</strong><small>{item.description}</small></span><span className={styles.outbound}>{item.action} ↗</span>
             </a>)}</div>
           </div>
-          <div className={styles.brandGroup}><Label>Website Strategy & Content</Label><div className={styles.brandRows}>{writing.slice(3).map((item, i) => <a href={item.href} target="_blank" rel="noreferrer" key={item.title} className={styles.brandRow}>
-            {item.image ? <Artwork src={item.image} alt={item.imageAlt} className={styles.brandImage} /> : <div className={`${styles.brandImage} ${styles.brandPlaceholder}`} aria-hidden="true"><span>Strategy<br />& content</span></div>}<div><span className={styles.rowNumber}>0{i + 4} / WEBSITE CONTENT</span><h3>{item.title}</h3><p>{item.description}</p><span className={styles.outbound}>{item.action} ↗</span></div>
+          <div className={styles.brandGroup}><Label>Website Strategy & Content</Label><div className={styles.brandRows}>{writing.slice(4).map((item, i) => <a href={item.href} target="_blank" rel="noreferrer" key={item.title} className={styles.brandRow}>
+            {item.image ? <Artwork src={item.image} alt={item.imageAlt} className={styles.brandImage} /> : <div className={`${styles.brandImage} ${styles.brandPlaceholder}`} aria-hidden="true"><span>Strategy<br />& content</span></div>}<div><span className={styles.rowNumber}>0{i + 5} / WEBSITE CONTENT</span><h3>{item.title}</h3><p>{item.description}</p><span className={styles.outbound}>{item.action} ↗</span></div>
           </a>)}</div></div>
         </section>
 
