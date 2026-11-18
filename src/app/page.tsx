@@ -54,14 +54,23 @@ function PodcastProject({ project }: { project: (typeof projects)[number] }) {
   )
 }
 
-function SkoobShelf({ title, groups, columns }: { title: string; groups: typeof skoob.shows; columns: 'three' | 'four' }) {
+type SkoobGroup = {
+  genre: string
+  icon?: string
+  items: Array<{ title: string; href: string; tags: string[]; description: string }>
+}
+
+function SkoobShelf({ title, groups, columns }: { title: string; groups: SkoobGroup[]; columns: 'three' | 'four' }) {
   return (
     <div className={`${styles.skoobShelf} ${columns === 'four' ? styles.skoobShelfFour : ''}`}>
       <div className={styles.skoobShelfHeading}><Label>{title}</Label><span>↘</span></div>
       <div className={styles.skoobColumns}>
         {groups.map((group) => (
           <section className={styles.skoobColumn} key={`${title}-${group.genre}`}>
-            <h4>{group.genre}</h4>
+            <h4 className={styles.skoobCategory}>
+              {group.icon && <Image className={styles.skoobCategoryIcon} src={group.icon} alt="" width={34} height={34} sizes="34px" />}
+              <span>{group.genre}</span>
+            </h4>
             <div className={styles.skoobItems}>
               {group.items.map((item) => (
                 <details className={styles.skoobItem} key={item.title}>

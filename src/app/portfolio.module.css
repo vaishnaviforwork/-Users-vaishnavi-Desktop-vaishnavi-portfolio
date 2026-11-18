@@ -85,6 +85,9 @@
 .skoobShelfFour .skoobColumns { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .skoobColumn { min-width: 0; padding: 16px 15px 5px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .skoobColumn h4 { margin: 0 0 8px; color: var(--accent); font: 9px "DM Mono", monospace; letter-spacing: .1em; text-transform: uppercase; }
+.skoobCategory { display: flex; min-height: 34px; align-items: center; gap: 9px; }
+.skoobCategoryIcon { display: block; width: 34px; height: 34px; flex: 0 0 34px; object-fit: contain; }
+.skoobCategory span { line-height: 1.35; }
 .skoobItems { border-top: 1px solid var(--line); }
 .skoobItem { display: block; min-width: 0; padding: 13px 0; border-bottom: 1px solid var(--line); }
 .skoobItem:last-child { border-bottom: 0; }

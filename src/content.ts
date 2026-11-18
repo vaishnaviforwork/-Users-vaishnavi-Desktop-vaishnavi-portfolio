@@ -13,6 +13,7 @@ export const skoob = {
   shows: [
     {
       genre: 'True Crime',
+      icon: '/images/true-crime-icon.png',
       items: [
         { title: 'Dorothy Kilgallen’s Death', href: 'https://skoob.ai/skoob/shows/dorothy-kilgallens-death', tags: ['Investigative mystery', 'Unanswered questions', 'Historical crime'], description: "A journalist's mysterious death, her investigation into the JFK assassination and the questions that remain." },
         { title: 'The Infamous Mary Bell', href: 'https://skoob.ai/skoob/shows/the-infamous-mary-bell', tags: ['Criminal psychology', 'Childhood', 'True crime'], description: 'A disturbing case exploring childhood, violence, public outrage and the complexities of culpability.' },
@@ -21,6 +22,7 @@ export const skoob = {
     },
     {
       genre: 'History',
+      icon: '/images/history-icon.png',
       items: [
         { title: 'Island and Crown: The Andrew-Epstein Scandal', href: 'https://skoob.ai/skoob/shows/island-and-crown-the-andrew-epstein-scandal', tags: ['Royal scandal', 'Power & influence', 'Sex trafficking allegations'], description: 'The relationship between Prince Andrew and Jeffrey Epstein, the allegations that brought it under scrutiny, and the scandal that shook the British monarchy.' },
         { title: 'The Donner Pass Tragedy', href: 'https://skoob.ai/skoob/shows/the-donner-pass-tragedy', tags: ['Survival story', 'Pioneer history', 'Extreme conditions'], description: 'A group of pioneers becomes stranded in the Sierra Nevada mountains during a brutal winter, facing starvation, desperation and unimaginable choices in their struggle to survive.' },
@@ -29,6 +31,7 @@ export const skoob = {
     },
     {
       genre: 'Mystery',
+      icon: '/images/mystery-icon.png',
       items: [
         { title: 'The Circleville Letters Mystery', href: 'https://skoob.ai/skoob/shows/the-circleville-letters-mystery', tags: ['Unsolved mystery', 'Anonymous letters', 'Small-town secrets'], description: 'A series of threatening letters turns an ordinary community upside down, leading to years of suspicion and unanswered questions.' },
         { title: 'Disappearance of Flight MH370', href: 'https://skoob.ai/skoob/shows/disappearance-of-flight-mh370', tags: ['Modern history', 'Aviation mystery', 'Global events'], description: 'The disappearance of a passenger aircraft, an unprecedented search and the unanswered questions behind one of aviation’s greatest mysteries.' },
@@ -39,6 +42,7 @@ export const skoob = {
   podcasts: [
     {
       genre: 'History',
+      icon: '/images/podcast-history-icon.png',
       items: [
         { title: 'Unit 731', href: 'https://skoob.ai/skoob/exclusive/unit-731', tags: ['Political atrocities', 'Secret experiments', 'Dark history'], description: 'Inside Japan’s secret wartime biological warfare programme and the horrific human experiments carried out under its name.' },
         { title: 'Assassination of Malcolm X', href: 'https://skoob.ai/skoob/exclusive/assassination-of-malcolm-x', tags: ['Political assassination', 'Civil rights history', 'Investigation'], description: 'The life, ideological transformation and assassination of Malcolm X, including the questions and controversies surrounding his killing.' },
@@ -47,6 +51,7 @@ export const skoob = {
     },
     {
       genre: 'Spirituality',
+      icon: '/images/spirituality-icon.png',
       items: [
         { title: 'Psychedelics and Spirituality', href: 'https://skoob.ai/skoob/oldskoob/psychedelics-and-spirituality', tags: ['Consciousness', 'Ancient practices', 'Altered states'], description: 'Exploring the relationship between psychedelic experiences, spiritual traditions and changing perceptions of consciousness.' },
         { title: 'Quantum Spirituality', href: 'https://skoob.ai/skoob/exclusive/quantum-spirituality', tags: ['Quantum concepts', 'Consciousness', 'Modern spirituality'], description: 'Examining the ideas connecting quantum theory and spirituality, while exploring where scientific understanding ends, and interpretation begins.' },
@@ -55,6 +60,7 @@ export const skoob = {
     },
     {
       genre: 'Psychology',
+      icon: '/images/psychology-icon.png',
       items: [
         { title: 'Why We Believe Conspiracies', href: 'https://skoob.ai/skoob/exclusive/why-we-believe-conspiracies', tags: ['Cognitive biases', 'Crowd psychology', 'Pattern recognition'], description: 'Exploring why people are drawn to conspiracy theories, how the mind connects seemingly unrelated events, and why alternative explanations can feel more convincing than established facts.' },
         { title: 'Psychology of Stalkers', href: 'https://skoob.ai/skoob/oldskoob/psychology-of-stalkers', tags: ['Obsessive behaviour', 'Criminal psychology', 'Human behaviour'], description: 'Examining the psychology behind stalking, from fixation and obsession to the behavioural patterns that can escalate into threats.' },
@@ -63,6 +69,7 @@ export const skoob = {
     },
     {
       genre: 'Tech & Business',
+      icon: '/images/tech-business-icon.png',
       items: [
         { title: "Vegas' Casino Business", href: 'https://skoob.ai/skoob/exclusive/vegas-casino-business', tags: ['Luxury & entertainment', 'Business empires', 'Risk management'], description: 'The business empire behind Las Vegas, exploring how casinos turn entertainment, psychology and risk into a multibillion-dollar industry.' },
         { title: 'Tech Oligarchs & US Politics', href: 'https://skoob.ai/skoob/exclusive/tech-oligarchs-and-us-politics', tags: ['Big Tech', 'Political influence', 'Power & money'], description: 'Exploring how powerful technology leaders shape political conversations, policy and the relationship between business and government.' },
